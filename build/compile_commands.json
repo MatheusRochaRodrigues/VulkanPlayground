@@ -1,104 +1,104 @@
 [
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -std=c++20 -o third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -std=c++20 -o third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp",
   "output": "third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_demo.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_demo.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_demo.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_demo.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_draw.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_draw.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_draw.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_draw.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_tables.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_tables.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_tables.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_tables.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_widgets.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_widgets.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_widgets.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_widgets.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o -c /home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2 -std=c++20 -o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp",
   "output": "third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -x c++-header -o src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -c /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx",
-  "file": "/home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -x c++-header -o src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -c /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx",
   "output": "src/CMakeFiles/engine.dir/cmake_pch.hxx.pch"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/main.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/main.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/main.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/main.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/main.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/main.cpp",
   "output": "src/CMakeFiles/engine.dir/main.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_initializers.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_initializers.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_initializers.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_initializers.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_initializers.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_initializers.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_initializers.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_images.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_images.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_images.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_images.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_images.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_images.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_images.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_descriptors.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_descriptors.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_descriptors.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_descriptors.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_descriptors.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_descriptors.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_descriptors.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_pipelines.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_pipelines.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_pipelines.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_pipelines.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_pipelines.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_pipelines.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_pipelines.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_engine.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_engine.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_engine.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_engine.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_engine.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_engine.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_engine.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_loader.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/vk_loader.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/vk_loader.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/vk_loader.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_loader.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_loader.cpp",
   "output": "src/CMakeFiles/engine.dir/vk_loader.cpp.o"
 },
 {
-  "directory": "/home/matheusrocha/Documentos/Vulkan/build",
-  "command": "/usr/bin/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/camera.cpp.o -c /home/matheusrocha/Documentos/Vulkan/src/camera.cpp",
-  "file": "/home/matheusrocha/Documentos/Vulkan/src/camera.cpp",
+  "directory": "/home/srmatheus/Documentos/PaperEngine/Vulkan/build",
+  "command": "/usr/lib64/ccache/clang++ -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2 -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -o src/CMakeFiles/engine.dir/camera.cpp.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/src/camera.cpp",
+  "file": "/home/srmatheus/Documentos/PaperEngine/Vulkan/src/camera.cpp",
   "output": "src/CMakeFiles/engine.dir/camera.cpp.o"
 }
 ]

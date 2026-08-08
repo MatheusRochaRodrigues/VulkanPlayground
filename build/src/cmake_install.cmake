@@ -1,4 +1,4 @@
-# Install script for directory: /home/matheusrocha/Documentos/Vulkan/src
+# Install script for directory: /home/srmatheus/Documentos/PaperEngine/Vulkan/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/matheusrocha/Documentos/Vulkan/build/src/install_local_manifest.txt"
+  file(WRITE "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

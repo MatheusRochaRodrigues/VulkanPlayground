@@ -34,19 +34,19 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/matheusrocha/Documentos/Vulkan/build/
+cmake_ninja_workdir = /home/srmatheus/Documentos/PaperEngine/Vulkan/build/
 
 #############################################
 # Utility command for Shaders
 
-build Shaders: phony CMakeFiles/Shaders /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp.spv /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp.spv /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv
+build Shaders: phony CMakeFiles/Shaders /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp.spv /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp.spv /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp.spv
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build && /usr/bin/ccmake -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build && /usr/bin/ccmake -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -58,7 +58,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build && /usr/bin/cmake --regenerate-during-build -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build && /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -69,38 +69,38 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Phony custom command for CMakeFiles/Shaders
 
-build CMakeFiles/Shaders | ${cmake_ninja_workdir}CMakeFiles/Shaders: phony /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp.spv /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp.spv /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv
+build CMakeFiles/Shaders | ${cmake_ninja_workdir}CMakeFiles/Shaders: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp.spv /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp.spv /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp.spv
 
 
 #############################################
-# Custom command for /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp.spv
+# Custom command for /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp.spv
 
-build /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp.spv: CUSTOM_COMMAND /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build && /usr/bin/glslc /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp -o /home/matheusrocha/Documentos/Vulkan/shaders/gradient.comp.spv
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp.spv: CUSTOM_COMMAND /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build && /usr/bin/glslc /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp -o /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient.comp.spv
   DESC = Compiling shader gradient.comp
   restat = 1
 
 
 #############################################
-# Custom command for /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp.spv
+# Custom command for /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp.spv
 
-build /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp.spv: CUSTOM_COMMAND /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build && /usr/bin/glslc /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp -o /home/matheusrocha/Documentos/Vulkan/shaders/gradient_color.comp.spv
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp.spv: CUSTOM_COMMAND /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build && /usr/bin/glslc /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp -o /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/gradient_color.comp.spv
   DESC = Compiling shader gradient_color.comp
   restat = 1
 
 
 #############################################
-# Custom command for /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv
+# Custom command for /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp.spv
 
-build /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv: CUSTOM_COMMAND /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build && /usr/bin/glslc /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp -o /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp.spv: CUSTOM_COMMAND /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build && /usr/bin/glslc /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp -o /home/srmatheus/Documentos/PaperEngine/Vulkan/shaders/sky.comp.spv
   DESC = Compiling shader sky.comp
   restat = 1
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/matheusrocha/Documentos/Vulkan/CMakeLists.txt
+# /home/srmatheus/Documentos/PaperEngine/Vulkan/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -112,12 +112,14 @@ build /home/matheusrocha/Documentos/Vulkan/shaders/sky.comp.spv: CUSTOM_COMMAND 
 
 build cmake_object_order_depends_target_vkbootstrap: phony || .
 
-build third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o: CXX_COMPILER__vkbootstrap_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp || cmake_object_order_depends_target_vkbootstrap
+build third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o: CXX_COMPILER__vkbootstrap_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap/VkBootstrap.cpp || cmake_object_order_depends_target_vkbootstrap
   DEP_FILE = third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap
   OBJECT_DIR = third_party/CMakeFiles/vkbootstrap.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.pdb
 
 
 # =============================================================================
@@ -125,14 +127,15 @@ build third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o: CXX_
 
 
 #############################################
-# Link the static library /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a
+# Link the static library /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a
 
-build /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a: CXX_STATIC_LIBRARY_LINKER__vkbootstrap_ third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a: CXX_STATIC_LIBRARY_LINKER__vkbootstrap_ third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.o
   OBJECT_DIR = third_party/CMakeFiles/vkbootstrap.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a
-  TARGET_PDB = vkbootstrap.a.dbg
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap.pdb
+  TARGET_FILE = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target imgui
@@ -143,54 +146,68 @@ build /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a: CXX_STATIC_LIBR
 
 build cmake_object_order_depends_target_imgui: phony || .
 
-build third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_vulkan.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui/backends
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
-build third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_imgui
+build third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o.d
   FLAGS = -std=c++20
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -isystem /usr/include/SDL2
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = third_party/CMakeFiles/imgui.dir/imgui/backends
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
 
 # =============================================================================
@@ -198,21 +215,22 @@ build third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o: CXX
 
 
 #############################################
-# Link the static library /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a
+# Link the static library /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a
 
-build /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_vulkan.cpp.o third_party/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_sdl2.cpp.o
   OBJECT_DIR = third_party/CMakeFiles/imgui.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a
-  TARGET_PDB = imgui.a.dbg
+  TARGET_COMPILE_PDB = third_party/CMakeFiles/imgui.dir/imgui.pdb
+  TARGET_FILE = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build third_party/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build/third_party && /usr/bin/ccmake -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build/third_party && /usr/bin/ccmake -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -224,7 +242,7 @@ build third_party/edit_cache: phony third_party/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build third_party/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build/third_party && /usr/bin/cmake --regenerate-during-build -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build/third_party && /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -233,7 +251,7 @@ build third_party/rebuild_cache: phony third_party/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/matheusrocha/Documentos/Vulkan/CMakeLists.txt
+# /home/srmatheus/Documentos/PaperEngine/Vulkan/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -245,77 +263,95 @@ build third_party/rebuild_cache: phony third_party/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_imgui cmake_object_order_depends_target_vkbootstrap
 
-build src/CMakeFiles/engine.dir/cmake_pch.hxx.pch: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx | src/CMakeFiles/engine.dir/cmake_pch.hxx || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/cmake_pch.hxx.pch: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.cxx | src/CMakeFiles/engine.dir/cmake_pch.hxx || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/cmake_pch.hxx.pch.d
-  FLAGS = -std=c++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -x c++-header
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx -x c++-header
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/main.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/main.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/main.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/main.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/main.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_initializers.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_initializers.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_initializers.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_initializers.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_initializers.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_images.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_images.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_images.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_images.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_images.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_descriptors.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_descriptors.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_descriptors.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_descriptors.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_descriptors.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_pipelines.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_pipelines.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_pipelines.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_pipelines.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_pipelines.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_engine.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_engine.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_engine.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_engine.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_engine.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/vk_loader.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/vk_loader.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/vk_loader.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/vk_loader.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/vk_loader.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
-build src/CMakeFiles/engine.dir/camera.cpp.o: CXX_COMPILER__engine_unscanned_ /home/matheusrocha/Documentos/Vulkan/src/camera.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
+build src/CMakeFiles/engine.dir/camera.cpp.o: CXX_COMPILER__engine_unscanned_ /home/srmatheus/Documentos/PaperEngine/Vulkan/src/camera.cpp | src/CMakeFiles/engine.dir/cmake_pch.hxx src/CMakeFiles/engine.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_engine
   DEFINES = -DFMT_SHARED -DGLM_FORCE_DEPTH_ZERO_TO_ONE
   DEP_FILE = src/CMakeFiles/engine.dir/camera.cpp.o.d
-  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/matheusrocha/Documentos/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
-  INCLUDES = -I/home/matheusrocha/Documentos/Vulkan/src -I/home/matheusrocha/Documentos/Vulkan/third_party/vkbootstrap -I/home/matheusrocha/Documentos/Vulkan/third_party/vma -I/home/matheusrocha/Documentos/Vulkan/third_party/glm -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui -I/home/matheusrocha/Documentos/Vulkan/third_party/imgui/backends -I/home/matheusrocha/Documentos/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
+  FLAGS = -std=c++20 -Winvalid-pch -Xclang -include-pch -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src/CMakeFiles/engine.dir/cmake_pch.hxx
+  INCLUDES = -I/home/srmatheus/Documentos/PaperEngine/Vulkan/src -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vkbootstrap -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/vma -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/glm -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/imgui/backends -I/home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/stb_image -isystem /usr/include/SDL2
   OBJECT_DIR = src/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/CMakeFiles/engine.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
 
 # =============================================================================
@@ -323,24 +359,25 @@ build src/CMakeFiles/engine.dir/camera.cpp.o: CXX_COMPILER__engine_unscanned_ /h
 
 
 #############################################
-# Link the executable /home/matheusrocha/Documentos/Vulkan/bin/engine
+# Link the executable /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine
 
-build /home/matheusrocha/Documentos/Vulkan/bin/engine: CXX_EXECUTABLE_LINKER__engine_ src/CMakeFiles/engine.dir/main.cpp.o src/CMakeFiles/engine.dir/vk_initializers.cpp.o src/CMakeFiles/engine.dir/vk_images.cpp.o src/CMakeFiles/engine.dir/vk_descriptors.cpp.o src/CMakeFiles/engine.dir/vk_pipelines.cpp.o src/CMakeFiles/engine.dir/vk_engine.cpp.o src/CMakeFiles/engine.dir/vk_loader.cpp.o src/CMakeFiles/engine.dir/camera.cpp.o | /lib64/libvulkan.so /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a /usr/lib64/libfmt.so.11.1.4 /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a /lib64/libvulkan.so /usr/lib64/libSDL2-2.0.so.0.3200.64 || /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine: CXX_EXECUTABLE_LINKER__engine_ src/CMakeFiles/engine.dir/main.cpp.o src/CMakeFiles/engine.dir/vk_initializers.cpp.o src/CMakeFiles/engine.dir/vk_images.cpp.o src/CMakeFiles/engine.dir/vk_descriptors.cpp.o src/CMakeFiles/engine.dir/vk_pipelines.cpp.o src/CMakeFiles/engine.dir/vk_engine.cpp.o src/CMakeFiles/engine.dir/vk_loader.cpp.o src/CMakeFiles/engine.dir/camera.cpp.o | /lib64/libvulkan.so /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a /usr/lib64/libfmt.so.11.1.4 /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a /lib64/libvulkan.so /usr/lib64/libSDL2-2.0.so.0.3200.64 || /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a
   DEP_FILE = src/CMakeFiles/engine.dir/link.d
   LINK_FLAGS = -Xlinker --dependency-file=src/CMakeFiles/engine.dir/link.d
-  LINK_LIBRARIES = /lib64/libvulkan.so  /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a  /usr/lib64/libfmt.so.11.1.4  /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a  -ldl  /lib64/libvulkan.so  /usr/lib64/libSDL2-2.0.so.0.3200.64
+  LINK_LIBRARIES = /lib64/libvulkan.so  /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a  /usr/lib64/libfmt.so.11.1.4  /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a  -ldl  /lib64/libvulkan.so  /usr/lib64/libSDL2-2.0.so.0.3200.64
   OBJECT_DIR = src/CMakeFiles/engine.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /home/matheusrocha/Documentos/Vulkan/bin/engine
-  TARGET_PDB = engine.dbg
+  TARGET_COMPILE_PDB = src/CMakeFiles/engine.dir/
+  TARGET_FILE = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine
+  TARGET_PDB = /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build/src && /usr/bin/ccmake -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src && /usr/bin/ccmake -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -352,7 +389,7 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/matheusrocha/Documentos/Vulkan/build/src && /usr/bin/cmake --regenerate-during-build -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  COMMAND = cd /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src && /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -362,15 +399,15 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build engine: phony /home/matheusrocha/Documentos/Vulkan/bin/engine
+build engine: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine
 
-build imgui: phony /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a
+build imgui: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a
 
-build libimgui.a: phony /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a
+build libimgui.a: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a
 
-build libvkbootstrap.a: phony /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a
+build libvkbootstrap.a: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a
 
-build vkbootstrap: phony /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a
+build vkbootstrap: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a
 
 # =============================================================================
 # Folder targets.
@@ -378,23 +415,23 @@ build vkbootstrap: phony /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap
 # =============================================================================
 
 #############################################
-# Folder: /home/matheusrocha/Documentos/Vulkan/build
+# Folder: /home/srmatheus/Documentos/PaperEngine/Vulkan/build
 
 build all: phony third_party/all src/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/matheusrocha/Documentos/Vulkan/build/src
+# Folder: /home/srmatheus/Documentos/PaperEngine/Vulkan/build/src
 
-build src/all: phony /home/matheusrocha/Documentos/Vulkan/bin/engine
+build src/all: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/engine
 
 # =============================================================================
 
 #############################################
-# Folder: /home/matheusrocha/Documentos/Vulkan/build/third_party
+# Folder: /home/srmatheus/Documentos/PaperEngine/Vulkan/build/third_party
 
-build third_party/all: phony /home/matheusrocha/Documentos/Vulkan/bin/libvkbootstrap.a /home/matheusrocha/Documentos/Vulkan/bin/libimgui.a
+build third_party/all: phony /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libvkbootstrap.a /home/srmatheus/Documentos/PaperEngine/Vulkan/bin/libimgui.a
 
 # =============================================================================
 # Built-in targets
@@ -403,14 +440,14 @@ build third_party/all: phony /home/matheusrocha/Documentos/Vulkan/bin/libvkboots
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/matheusrocha/Documentos/Vulkan/CMakeLists.txt /home/matheusrocha/Documentos/Vulkan/src/CMakeLists.txt /home/matheusrocha/Documentos/Vulkan/third_party/CMakeLists.txt /usr/lib64/cmake/SDL2/SDL2Config.cmake /usr/lib64/cmake/SDL2/SDL2ConfigVersion.cmake /usr/lib64/cmake/SDL2/SDL2Targets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2Targets.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets.cmake /usr/lib64/cmake/fmt/fmt-config-version.cmake /usr/lib64/cmake/fmt/fmt-config.cmake /usr/lib64/cmake/fmt/fmt-targets-relwithdebinfo.cmake /usr/lib64/cmake/fmt/fmt-targets.cmake /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FeatureSummary.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.11/CMakeCCompiler.cmake CMakeFiles/3.31.11/CMakeCXXCompiler.cmake CMakeFiles/3.31.11/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/srmatheus/Documentos/PaperEngine/Vulkan/CMakeLists.txt /home/srmatheus/Documentos/PaperEngine/Vulkan/src/CMakeLists.txt /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/CMakeLists.txt /usr/lib64/cmake/SDL2/SDL2Config.cmake /usr/lib64/cmake/SDL2/SDL2ConfigVersion.cmake /usr/lib64/cmake/SDL2/SDL2Targets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2Targets.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets.cmake /usr/lib64/cmake/fmt/fmt-config-version.cmake /usr/lib64/cmake/fmt/fmt-config.cmake /usr/lib64/cmake/fmt/fmt-targets-relwithdebinfo.cmake /usr/lib64/cmake/fmt/fmt-targets.cmake /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FeatureSummary.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.11/CMakeCCompiler.cmake CMakeFiles/3.31.11/CMakeCXXCompiler.cmake CMakeFiles/3.31.11/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/matheusrocha/Documentos/Vulkan/CMakeLists.txt /home/matheusrocha/Documentos/Vulkan/src/CMakeLists.txt /home/matheusrocha/Documentos/Vulkan/third_party/CMakeLists.txt /usr/lib64/cmake/SDL2/SDL2Config.cmake /usr/lib64/cmake/SDL2/SDL2ConfigVersion.cmake /usr/lib64/cmake/SDL2/SDL2Targets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2Targets.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets.cmake /usr/lib64/cmake/fmt/fmt-config-version.cmake /usr/lib64/cmake/fmt/fmt-config.cmake /usr/lib64/cmake/fmt/fmt-targets-relwithdebinfo.cmake /usr/lib64/cmake/fmt/fmt-targets.cmake /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FeatureSummary.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.11/CMakeCCompiler.cmake CMakeFiles/3.31.11/CMakeCXXCompiler.cmake CMakeFiles/3.31.11/CMakeSystem.cmake: phony
+build /home/srmatheus/Documentos/PaperEngine/Vulkan/CMakeLists.txt /home/srmatheus/Documentos/PaperEngine/Vulkan/src/CMakeLists.txt /home/srmatheus/Documentos/PaperEngine/Vulkan/third_party/CMakeLists.txt /usr/lib64/cmake/SDL2/SDL2Config.cmake /usr/lib64/cmake/SDL2/SDL2ConfigVersion.cmake /usr/lib64/cmake/SDL2/SDL2Targets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2Targets.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets-noconfig.cmake /usr/lib64/cmake/SDL2/SDL2mainTargets.cmake /usr/lib64/cmake/fmt/fmt-config-version.cmake /usr/lib64/cmake/fmt/fmt-config.cmake /usr/lib64/cmake/fmt/fmt-targets-relwithdebinfo.cmake /usr/lib64/cmake/fmt/fmt-targets.cmake /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FeatureSummary.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.11/CMakeCCompiler.cmake CMakeFiles/3.31.11/CMakeCXXCompiler.cmake CMakeFiles/3.31.11/CMakeSystem.cmake: phony
 
 
 #############################################

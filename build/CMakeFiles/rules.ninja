@@ -24,7 +24,7 @@ rule CUSTOM_COMMAND
 
 rule CXX_SCAN__vkbootstrap_
   depfile = $DEP_FILE
-  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
+  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
   description = Scanning $in for CXX dependencies
 
 
@@ -45,7 +45,7 @@ rule CXX_DYNDEP__vkbootstrap_
 rule CXX_COMPILER__vkbootstrap_scanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -55,7 +55,7 @@ rule CXX_COMPILER__vkbootstrap_scanned_
 rule CXX_COMPILER__vkbootstrap_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -73,7 +73,7 @@ rule CXX_STATIC_LIBRARY_LINKER__vkbootstrap_
 
 rule CXX_SCAN__imgui_
   depfile = $DEP_FILE
-  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
+  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
   description = Scanning $in for CXX dependencies
 
 
@@ -94,7 +94,7 @@ rule CXX_DYNDEP__imgui_
 rule CXX_COMPILER__imgui_scanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -104,7 +104,7 @@ rule CXX_COMPILER__imgui_scanned_
 rule CXX_COMPILER__imgui_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -122,7 +122,7 @@ rule CXX_STATIC_LIBRARY_LINKER__imgui_
 
 rule CXX_SCAN__engine_
   depfile = $DEP_FILE
-  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
+  command = "/usr/bin/clang-scan-deps-20" -format=p1689 -- /usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -x c++ $in -c -o $OBJ_FILE -resource-dir "/usr/bin/../lib/clang/20" -MT $DYNDEP_INTERMEDIATE_FILE -MD -MF $DEP_FILE > $DYNDEP_INTERMEDIATE_FILE.tmp && mv $DYNDEP_INTERMEDIATE_FILE.tmp $DYNDEP_INTERMEDIATE_FILE
   description = Scanning $in for CXX dependencies
 
 
@@ -143,7 +143,7 @@ rule CXX_DYNDEP__engine_
 rule CXX_COMPILER__engine_scanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE @$DYNDEP_MODULE_MAP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -153,7 +153,7 @@ rule CXX_COMPILER__engine_scanned_
 rule CXX_COMPILER__engine_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/usr/lib64/ccache/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -163,7 +163,7 @@ rule CXX_COMPILER__engine_unscanned_
 rule CXX_EXECUTABLE_LINKER__engine_
   depfile = $DEP_FILE
   deps = gcc
-  command = $PRE_LINK && /usr/bin/clang++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/lib64/ccache/clang++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -172,7 +172,7 @@ rule CXX_EXECUTABLE_LINKER__engine_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/matheusrocha/Documentos/Vulkan -B/home/matheusrocha/Documentos/Vulkan/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/PaperEngine/Vulkan -B/home/srmatheus/Documentos/PaperEngine/Vulkan/build
   description = Re-running CMake...
   generator = 1
 
