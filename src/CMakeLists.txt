@@ -41,6 +41,7 @@ target_link_libraries(engine PUBLIC
   fmt::fmt 
   imgui
   stb_image
+  fastgltf::fastgltf
 ) #imgui vkguide_shared fastgltf::fastgltf  stb_image
 
 

@@ -57,7 +57,7 @@ target_include_directories(fmt INTERFACE
 
 # fastgltf
 # add_subdirectory(fastgltf EXCLUDE_FROM_ALL)
-
+add_subdirectory(fastgltf)
 
 # imgui
 add_library(imgui STATIC)

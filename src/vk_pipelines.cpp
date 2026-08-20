@@ -2,6 +2,7 @@
 
 #include "vk_initializers.h"
 #include <fstream>
+#include <filesystem>
 
 //> pipe_clear
 void PipelineBuilder::clear()
@@ -230,7 +231,19 @@ void PipelineBuilder::enable_depthtest(bool depthWriteEnable, VkCompareOp op)
 }
 //< depth_enable
 
-//> load_shader
+
+
+
+
+
+
+
+
+
+
+
+/*
+//> load_shader_Original 
 bool vkutil::load_shader_module(const char* filePath,
     VkDevice device,
     VkShaderModule* outShaderModule)
@@ -278,3 +291,65 @@ bool vkutil::load_shader_module(const char* filePath,
     return true;
 }
 //< load_shader
+*/
+
+ 
+
+//> load_shader_New2Debug
+bool vkutil::load_shader_module(
+    const char* filePath,
+    VkDevice device,
+    VkShaderModule* outShaderModule)
+{
+    std::filesystem::path relativePath(filePath);
+    std::filesystem::path absolutePath =
+        std::filesystem::absolute(relativePath);
+
+    fmt::print("Trying to load shader:\n");
+    fmt::print("  Relative: {}\n", relativePath.string());
+    fmt::print("  Absolute: {}\n", absolutePath.string());
+    fmt::print("  Exists: {}\n", std::filesystem::exists(absolutePath));
+
+    // open the file
+    std::ifstream file(filePath, std::ios::ate | std::ios::binary);
+
+    if (!file.is_open()) {
+        fmt::print("  FAILED TO OPEN SHADER FILE!\n");
+        return false;
+    }
+
+    size_t fileSize = (size_t)file.tellg();
+
+    std::vector<uint32_t> buffer(fileSize / sizeof(uint32_t));
+
+    file.seekg(0);
+    file.read((char*)buffer.data(), fileSize);
+    file.close();
+
+    VkShaderModuleCreateInfo createInfo = {};
+    createInfo.sType = VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO;
+    createInfo.pNext = nullptr;
+    createInfo.codeSize = buffer.size() * sizeof(uint32_t);
+    createInfo.pCode = buffer.data();
+
+    VkShaderModule shaderModule;
+
+    if (vkCreateShaderModule(
+            device,
+            &createInfo,
+            nullptr,
+            &shaderModule) != VK_SUCCESS)
+    {
+        fmt::print("  File opened, but vkCreateShaderModule FAILED!\n");
+        return false;
+    }
+
+    *outShaderModule = shaderModule;
+
+    fmt::print("  Shader loaded successfully!\n");
+
+    return true;
+}
+//< load_shader
+
+ 

@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-YJq6vR"
-      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-YJq6vR"
+      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-k8EKOW"
+      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-k8EKOW"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_C_FLAGS: ""
@@ -72,10 +72,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-YJq6vR'
+        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-k8EKOW'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_6ee8e
-        [1/2] /usr/lib64/ccache/clang   -v -MD -MT CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_bf7c5
+        [1/2] /usr/lib64/ccache/clang   -v -MD -MT CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -98,7 +98,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/lib64/ccache/clang  -v -Wl,-v CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -o cmTC_6ee8e   && :
+        [2/2] : && /usr/lib64/ccache/clang  -v -Wl,-v CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -o cmTC_bf7c5   && :
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -110,7 +110,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6ee8e /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bf7c5 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
         GNU ld version 2.44-12.fc42
         
       exitCode: 0
@@ -144,10 +144,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-YJq6vR']
+        ignore line: [Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-k8EKOW']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_6ee8e]
-        ignore line: [[1/2] /usr/lib64/ccache/clang   -v -MD -MT CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_bf7c5]
+        ignore line: [[1/2] /usr/lib64/ccache/clang   -v -MD -MT CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -173,7 +173,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/lib64/ccache/clang  -v -Wl -v CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -o cmTC_6ee8e   && :]
+        ignore line: [[2/2] : && /usr/lib64/ccache/clang  -v -Wl -v CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -o cmTC_bf7c5   && :]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -188,7 +188,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6ee8e /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bf7c5 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -198,7 +198,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6ee8e] ==> ignore
+          arg [cmTC_bf7c5] ==> ignore
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o]
@@ -210,7 +210,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_6ee8e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_bf7c5.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -260,8 +260,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-zNp6fz"
-      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-zNp6fz"
+      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-ZsctO3"
+      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-ZsctO3"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_CXX_FLAGS: ""
@@ -272,10 +272,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-zNp6fz'
+        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-ZsctO3'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_51606
-        [1/2] /usr/lib64/ccache/clang++   -v -MD -MT CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_e81f1
+        [1/2] /usr/lib64/ccache/clang++   -v -MD -MT CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -301,7 +301,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/lib64/ccache/clang++  -v -Wl,-v CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_51606   && :
+        [2/2] : && /usr/lib64/ccache/clang++  -v -Wl,-v CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e81f1   && :
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -313,7 +313,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_51606 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81f1 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
         GNU ld version 2.44-12.fc42
         
       exitCode: 0
@@ -353,10 +353,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-zNp6fz']
+        ignore line: [Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-ZsctO3']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_51606]
-        ignore line: [[1/2] /usr/lib64/ccache/clang++   -v -MD -MT CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_e81f1]
+        ignore line: [[1/2] /usr/lib64/ccache/clang++   -v -MD -MT CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -385,7 +385,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/lib64/ccache/clang++  -v -Wl -v CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_51606   && :]
+        ignore line: [[2/2] : && /usr/lib64/ccache/clang++  -v -Wl -v CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e81f1   && :]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -400,7 +400,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_51606 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81f1 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -410,7 +410,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_51606] ==> ignore
+          arg [cmTC_e81f1] ==> ignore
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o]
@@ -422,7 +422,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_51606.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e81f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -472,8 +472,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-KsNo54"
-      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-KsNo54"
+      source: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-EO0KKh"
+      binary: "/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-EO0KKh"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_C_FLAGS: ""
@@ -483,11 +483,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-KsNo54'
+        Change Dir: '/home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-EO0KKh'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_b0aad
-        [1/2] /usr/lib64/ccache/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_b0aad.dir/src.c.o -MF CMakeFiles/cmTC_b0aad.dir/src.c.o.d -o CMakeFiles/cmTC_b0aad.dir/src.c.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-KsNo54/src.c
-        [2/2] : && /usr/lib64/ccache/clang   CMakeFiles/cmTC_b0aad.dir/src.c.o -o cmTC_b0aad   && :
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_94e6b
+        [1/2] /usr/lib64/ccache/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_94e6b.dir/src.c.o -MF CMakeFiles/cmTC_94e6b.dir/src.c.o.d -o CMakeFiles/cmTC_94e6b.dir/src.c.o -c /home/srmatheus/Documentos/PaperEngine/Vulkan/build/CMakeFiles/CMakeScratch/TryCompile-EO0KKh/src.c
+        [2/2] : && /usr/lib64/ccache/clang   CMakeFiles/cmTC_94e6b.dir/src.c.o -o cmTC_94e6b   && :
         
       exitCode: 0
 ...
