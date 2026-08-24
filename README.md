@@ -2,7 +2,7 @@
 
 A personal playground for learning, experimenting with, and exploring the Vulkan API.
 
-This repository contains small experiments, prototypes, and implementations created while studying Vulkan and low-level GPU programming.
+This repository contains experiments, prototypes, and implementations created while studying Vulkan and low-level GPU programming.
 
 ## About
 
@@ -15,7 +15,7 @@ Rather than being a finished engine or production-ready framework, VulkanPlaygro
 - Vulkan initialization and instance/device setup
 - Physical and logical devices
 - Command buffers and command pools
-- Queues and synchronization
+- Queues and command submission
 - Swapchains and presentation
 - Render passes and dynamic rendering
 - Graphics and compute pipelines
@@ -23,10 +23,12 @@ Rather than being a finished engine or production-ready framework, VulkanPlaygro
 - Push constants
 - Buffers and images
 - GPU memory management
-- Shaders
-- Compute shaders
+- Vertex and index buffers
+- Texture loading and sampling
+- GLTF/GLB asset loading
+- Shaders and compute shaders
 - GPU synchronization
-- Vulkan synchronization2
+- Vulkan Synchronization 2
 - Pipeline barriers
 - Multithreading
 - GPU performance and optimization
@@ -39,9 +41,10 @@ The main goal is to gain a deeper understanding of:
 - Explicit graphics APIs
 - CPU-GPU communication
 - GPU memory management
-- Synchronization
 - Command submission
+- GPU synchronization
 - Rendering pipelines
+- Resource management
 - Low-level performance optimization
 
 ## Status
@@ -50,7 +53,7 @@ This is an ongoing learning project.
 
 The code may change frequently as I experiment with different approaches and Vulkan features.
 
-Some implementations are intentionally simple or experimental, and are mainly intended for learning and exploration.
+Some implementations are intentionally simple or experimental and are mainly intended for learning and exploration.
 
 ## Technologies
 
@@ -60,6 +63,7 @@ Some implementations are intentionally simple or experimental, and are mainly in
 - CMake
 - GLFW
 - GLM
+- GLTF / GLB
 - Vulkan Memory Allocator (VMA)
 - Dear ImGui
 
@@ -67,7 +71,9 @@ Some implementations are intentionally simple or experimental, and are mainly in
 
 Vulkan provides a much more explicit interface to the GPU compared to higher-level graphics APIs.
 
-Working with Vulkan makes it possible to explore concepts such as explicit synchronization, command buffers, GPU memory management, and parallel command submission while gaining a better understanding of what happens between the application, CPU, and GPU.
+Working with Vulkan makes it possible to explore concepts such as explicit synchronization, command buffers, GPU memory management, resource management, and parallel command submission.
+
+This project is also an opportunity to develop a deeper understanding of what happens between the application, CPU, and GPU when rendering graphics.
 
 ## Repository Structure
 
