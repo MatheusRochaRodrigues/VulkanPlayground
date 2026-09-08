@@ -1,0 +1,16 @@
+
+file(GLOB_RECURSE ENGINE_SOURCES_RENDERER
+    CONFIGURE_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
+)
+
+target_sources(engine   
+    PRIVATE
+        ${ENGINE_SOURCES_RENDERER}
+)
+
+target_include_directories(engine PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")    # PUBLIC
+
+
+target_include_directories(engine PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/engine_vulkan")    # PUBLIC
+

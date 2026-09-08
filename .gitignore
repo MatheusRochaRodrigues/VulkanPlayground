@@ -1,0 +1,16 @@
+# Build
+build/
+bin/
+
+# Compiled shaders
+*.spv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+#Backup
+ignore

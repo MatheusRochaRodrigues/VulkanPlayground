@@ -1,0 +1,10 @@
+
+file(GLOB_RECURSE ENGINE_SOURCES_UTILS
+    CONFIGURE_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
+)
+
+target_sources(engine   
+    PRIVATE
+        ${ENGINE_SOURCES_UTILS}
+)
