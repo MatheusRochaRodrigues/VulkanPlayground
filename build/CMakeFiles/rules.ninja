@@ -221,7 +221,7 @@ rule CXX_STATIC_LIBRARY_LINKER__fastgltf_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/PaperEngine -B/home/srmatheus/Documentos/PaperEngine/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/srmatheus/Documentos/Projects/PaperEngine -B/home/srmatheus/Documentos/Projects/PaperEngine/build
   description = Re-running CMake...
   generator = 1
 
@@ -230,7 +230,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /usr/bin/cmake -P /home/srmatheus/Documentos/PaperEngine/build/CMakeFiles/VerifyGlobs.cmake
+  command = /usr/bin/cmake -P /home/srmatheus/Documentos/Projects/PaperEngine/build/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
