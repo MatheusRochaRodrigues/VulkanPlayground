@@ -14,3 +14,10 @@ bin/
 
 #Backup
 ignore
+
+#folders
+Game
+Editor
+
+#cache
+.cache
